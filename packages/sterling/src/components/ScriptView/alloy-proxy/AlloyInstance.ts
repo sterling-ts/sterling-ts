@@ -49,7 +49,7 @@ class AlloyInstance {
     this._filename = '';
     this._sources = new Map();
 
-    if (text) this._buildFromXML(text);
+    if (text) this._buildFromXML(text, index);
   }
 
   /**
